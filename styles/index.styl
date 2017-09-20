@@ -1,0 +1,81 @@
+
+$base-font-size = 100% !default
+$em-base = 16px !default
+
+$default-float = left
+
+$bg-color = #000
+//$bg-tint = rgba(230, 215, 184, 0.25)
+$bg-tint = rgba(0, 0, 0, 0.5)
+
+$font-smoothing = antialiased
+
+$font-script = 'Norican', cursive
+$font-text = 'PT Sans', sans-serif
+$font-text-brand = 'Cormorant Garamond', serif
+$font-text-head = $font-text-brand
+$font-weight-head = 600
+$font-weight-text = 400
+$font-text-narrow = 'PT Sans Narrow', sans-serif
+$font-narrow = 'Economica', sans-serif
+
+$topbar-height = 10px
+$topbar-margin-bottom = emCalc(10px)
+
+$topbar-bg = transparent
+$topbar-bg-hover = #889dbe
+$topbar-bg-tint = rgba(230, 215, 184, 0.25)
+$topbar-border = rgb(0, 40, 10)
+
+$topbar-text = rgb(255, 251, 210)
+$topbar-text-active = #fc0
+$topbar-text-hover = #fc0
+$topbar-active-bg = rgba(230, 215, 184, 0.25)
+
+$body-text = rgb(255, 251, 210)
+$body-link = maroon
+
+$footer-bg = #666
+$footer-text = $body-text
+$footer-link = maroon
+
+html
+  position: relative;
+  min-height: 100%;
+
+body
+  background: $bg-color
+  font-family: $font-text
+  font-weight: $font-weight-text
+  color: $body-text
+  margin-bottom: 60px // Margin bottom by footer height
+
+h1, h2, h3
+  font-family: $font-text
+  color: $topbar-text
+
+h1
+  font-size: 1.8em
+  font-weight: $font-weight-head
+h2
+  font-size: 1.5em
+  font-weight: $font-weight-head
+h3
+  font-size: 1.2em
+  font-weight: $font-weight-text
+
+li
+  list-style: none
+a
+  text-decoration: none
+  color: $body-link
+
+@import '_homepage'
+//@import '_header'
+@import '_navbar'
+@import '_sidebars'
+@import '_search-results'
+@import '_footer'
+@import '_forms'
+@import '_pages'
+
