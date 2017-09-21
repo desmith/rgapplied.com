@@ -6,15 +6,15 @@
   "private": true,
   "main": "js/index.js",
   "scripts": {
-    "build": "brunch build",
+    "build": "./node_modules/brunch/bin/brunch build",
+    "buildp": "brunch build --production",
     "flow": "flow",
     "flow-fix": "chmod +x node_modules/flow-bin/flow-osx-*/flow",
     "lint": "eslint src",
-    "prod": "brunch build --production",
     "postinstall": "./scripts/postinstall",
     "test-build": "./scripts/test_build/run local",
-    "watch": "brunch watch",
-    "watchd": "brunch watch --debug"
+    "watch": "./node_modules/brunch/bin/brunch watch",
+    "watchd": "./node_modules/brunch/bin/brunch watch --debug"
   },
   "license": "ISC",
   "repository": {
