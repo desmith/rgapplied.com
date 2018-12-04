@@ -1,1 +1,1 @@
-s3cmd sync s3://rgapplied.com/ .static/
+aws --profile adminuser-govardhana s3 sync s3://rgapplied.com/ ./html/
