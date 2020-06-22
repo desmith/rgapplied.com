@@ -4403,8 +4403,7 @@ ul.bullets {
 }
 
 strong {
-    font-weight: 600;
-    text-align: center;
+	font-weight: 600;
 }
 
 del {
@@ -9259,6 +9258,10 @@ Helpers
 
 .background-primary {
 	background-color: #2250fc !important;
+}
+
+.background-smith{
+	background-color: #1072BA !important;
 }
 
 .background-secondary {
@@ -19041,6 +19044,9 @@ body[data-bg-image] {
 .card .card-body .wizard {
 	padding: 1rem;
 }
+
+/* Custom CSS*/
+
 
 /* Admin */
 /* @include breakpoint-lg(max) {
