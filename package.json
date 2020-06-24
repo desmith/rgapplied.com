@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:devap/rgstatic.git"
+    "url": "git@github.com:desmith/rgapplied.com.git"
   },
   "dependencies": {
     "bootstrap": "4.4.1",
